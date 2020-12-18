@@ -17,12 +17,19 @@ const appid =
 'WYEQU3-2T55JP3WUG',
 'T2XT8W-57PJW3L433',
 '2557YT-52JEY65G9K',
+'UVPKUJ-X9Q365R7E3',
+'W85VHP-E6WH3U78EE',
+'W33433-AKRV98E5AT',
+'3A3P8J-XA4UTGKAH5',
+'QGK5UA-HGUK7AP5LY',
+'8EL8GA-7W6EVYTQ5X',
+'W4TUXQ-GA2H8KUULA',
 ]
 
-const corsProxy = 'https://lin2jing4-cors.herokuapp.com/'
+const corsProxy = `https://lin2jing4-cors-${new Date().getDay()}.herokuapp.com/`
 
-const fixedEncodeURIComponent = str => 
-    encodeURIComponent(str)
+const fixedEncodeURI = string => 
+    encodeURIComponent(string)
     .replace(/[-_.!~*'()]/g, char => '%' + char.charCodeAt(0).toString(16))
 
 window.onhashchange = _ => {
@@ -41,7 +48,7 @@ form.onsubmit = async event => {
     `
         ${corsProxy} api.wolframalpha.com/v2/query?
         &appid = ${appid[Date.now() % appid.length]}
-        &input = ${location.hash = fixedEncodeURIComponent(input.value)}
+        &input = ${location.hash = fixedEncodeURI(document.title = input.value)}
         &podstate = Step-by-step+solution
         &podstate = Step-by-step
         &podstate = Show+all+steps
@@ -57,13 +64,14 @@ form.onsubmit = async event => {
 
 if (input.value)
     form.onsubmit()
+else
+    fetch(corsProxy)
 
 document.querySelectorAll('.example').forEach(
     example => {
         example.href = ''
         example.onclick = async event => {
             event.preventDefault()
-            progressBar.hidden = false
             const url =
             `
                 ${corsProxy} wolframalpha.com/examples/
@@ -75,7 +83,6 @@ document.querySelectorAll('.example').forEach(
                                 .replace(/.input..../, '#')
                                 .replace(/&amp;..../, '')
                                 .replace(/\+/g, ' '))
-            progressBar.hidden = true
         }
     }
 )
