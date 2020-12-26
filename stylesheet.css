@@ -28,6 +28,6 @@ input {
 
 @keyframes rotate {
     0% {
-        transform: rotate(3turn);
+        transform: rotate(2turn);
     }
 }
