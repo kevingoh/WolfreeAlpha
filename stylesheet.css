@@ -54,3 +54,31 @@ summary {
     background: black;
     filter: invert(1) hue-rotate(180deg);
 }
+
+.toggle {
+    width: 2.2em;
+    height: 1.2em;
+    margin: 1.2em;
+    background: gray;
+    border-radius: 1em;
+    display: inline-flex;
+}
+
+#checkbox {
+    width: 1em;
+    height: 1em;
+    margin: auto;
+    outline: none;
+    appearance: none;
+    border-radius: 1em;
+    transition: all .5s;
+    background-color: white;
+}
+
+#checkbox:checked {
+    transform: translate(.5em);
+}
+
+#checkbox:not(:checked) {
+    transform: translate(-.5em);
+}
