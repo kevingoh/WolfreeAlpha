@@ -1,4 +1,4 @@
-# Wol[free](https://anisurrahmanlikhon.github.io/wolfreealpha/)Alpha
+# Wol[free](https://anisurrahmanlikhon.github.io/WolfreeAlpha/)Alpha
 
 #### Free Wolfram Alpha Step-by-Step Solutions
 - [**Try it now**](https://anisurrahmanlikhon.github.io/wolfreealpha/), it's gratis!
