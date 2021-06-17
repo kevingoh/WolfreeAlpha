@@ -1,6 +1,6 @@
 # Wol[free](https://anisurrahmanlikhon.github.io/WolfreeAlpha/)Alpha
 
-#### Free Wolfram Alpha Step-by-Step Solutions
+#### Free Wolfram Alpha Step-by-Step Solutions 
 - [**Try it now**](https://anisurrahmanlikhon.github.io/WolfreeAlpha/), it's gratis!
 - Unlock FREE access to full [Wolfram|Alpha Step-by-Step Solutions](https://www.wolframalpha.com/examples/pro-features/step-by-step-solutions/).
 - Facilitate the use of [Wolfram|Alpha Show Steps API](https://products.wolframalpha.com/show-steps-api/documentation/).
