@@ -198,7 +198,7 @@ Perform basic statistical analysis on a set of data, seeing the steps along the 
 [variance 4, 6, 7, 9, 10, 11](https://wolfreealpha.github.io/#variance%204%2C%206%2C%207%2C%209%2C%2010%2C%2011)  
 [quartile of {1, 2, 3, 4, 5, 6}](https://wolfreealpha.github.io/#quartile%20of%20%7B1%2C%202%2C%203%2C%204%2C%205%2C%206%7D)
 
-## Chemistry
+## Chemistry 
 Get a step-by-step procedure to draw the Lewis structures of molecules:  
 [What is the Lewis structure of NO2](https://wolfreealpha.github.io/#What%20is%20the%20Lewis%20structure%20of%20NO2)  
 Follow the steps for unit conversion:  
