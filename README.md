@@ -29,9 +29,9 @@ Subscripts are typeset with the underscore, while superscripts are made with the
 
 ## Differential Equations
 See how separable equations are solved:  
-[solve y' = y^2 x](https://wolfreealpha.github.io/#solve%20y%27%20%3D%20y%5E2%20x)  
-[y'(x) = (x + 2) e^(-y(x)), y(0) = 0](https://wolfreealpha.github.io/#y%27%28x%29%20%3D%20%28x%20%2B%202%29%20e%5E%28%2dy%28x%29%29%2C%20y%280%29%20%3D%200)  
-[sec(y(t)) y'(t) + sin(t - y(t)) = sin(t + y(t))](https://wolfreealpha.github.io/#sec%28y%28t%29%29%20y%27%28t%29%20%2B%20sin%28t%20%2d%20y%28t%29%29%20%3D%20sin%28t%20%2B%20y%28t%29%29)  
+[solve y' = y^2 x](https://anisurrahmanlikhon.github.io/WolfreeAlpha/#solve%20y%27%20%3D%20y%5E2%20x)  
+[y'(x) = (x + 2) e^(-y(x)), y(0) = 0](https://anisurrahmanlikhon.github.io/WolfreeAlpha/#y%27%28x%29%20%3D%20%28x%20%2B%202%29%20e%5E%28%2dy%28x%29%29%2C%20y%280%29%20%3D%200)  
+[sec(y(t)) y'(t) + sin(t - y(t)) = sin(t + y(t))](https://anisurrahmanlikhon.github.io/WolfreeAlpha/#sec%28y%28t%29%29%20y%27%28t%29%20%2B%20sin%28t%20%2d%20y%28t%29%29%20%3D%20sin%28t%20%2B%20y%28t%29%29)  
 Solve first-order linear equations:  
 [y'(t) - 2y(t) = 3 e^(2t)](https://wolfreealpha.github.io/#y%27%28t%29%20%2d%202y%28t%29%20%3D%203%20e%5E%282t%29)  
 [x y'(x) - 4 y(x) = x^6 exp(x), y(1) = 0](https://wolfreealpha.github.io/#x%20y%27%28x%29%20%2d%204%20y%28x%29%20%3D%20x%5E6%20exp%28x%29%2C%20y%281%29%20%3D%200)  
